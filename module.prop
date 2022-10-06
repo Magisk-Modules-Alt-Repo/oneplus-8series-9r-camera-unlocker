@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v2.0
-versionCode=10
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=oneplus-8series-9r-camera-unlocker
+name=OnePlus 8 Series & 9R Camera Unlocker
+version=v1.1
+versionCode=1100
+author=AnierinB, JeusChrit, Cartesian8445, Luk1377, shadowstep
+description=Unlocks features like 48MP RAW10 support, auxiliary lenses (in custom ROMs only), Zero Shutter Lag (ZSL), etc. on the OnePlus 8, 8 Pro, 8T, and 9R
+updateJson=https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker/master/update.json

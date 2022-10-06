@@ -1,37 +1,19 @@
-<h1 align="center">Magisk Module Template Extended (MMT-Ex)</h1>
+# OnePlus 8 Series & 9R Camera Unlocker
 
-<div align="center">
-  <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v2.0-blue.svg?longCache=true&style=popout-square"
-      alt="Version" />
-  <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-January 21, 2022-green.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" />
-  <!-- Min Magisk -->
-    <img src="https://img.shields.io/badge/MinMagisk-20.4-red.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" /></div>
+## Information
+This module systemless-ly replaces an existing library with a modified one file which:
+- Removes the 1/30s shutter speed cap for third party camera apps, allowing GCam to use up to 1/8s in Zero Shutter Lag (ZSL) mode
+- Enables 48MP RAW10 capture support, both on the main (8/8T/9R) and ultra wide (8 Pro) lenses
+- Adds Multi Frame Noise Reduction support for the macro/monochrome (8/8T) and ultra wide (8 Pro) lenses
+- Adds support for long exposure capture (up to 5 seconds) in the Open Camera app
+- Allows access to the auxiliary cameras indepedent of the OxygenOS version or the GCam package installed
 
-<div align="center">
-  <strong>MMT Extended is the spiritual successor of Unity and makes magisk module creation easy. Instructions in the 
-    <h3><a href="https://github.com/Zackptg5/MMT-Extended/wiki">Wiki</a></h3>
-</div>
+## Links
+- [GitHub](https://github.com/Magisk-Modules-Alt-Repo/oneplus-8series-9r-camera-unlocker)
+- [MMT-Ex](https://github.com/Zackptg5/MMT-Extended)
 
-<div align="center">
-  <h3>
-    <a href="https://github.com/Zackptg5/MMT-Extended">
-      Source Code
-    </a>
-    <span> | </span>
-    <a href="https://github.com/Zackptg5/MMT-Extended-Addons">
-      Addons Repository
-    </a>
-    <span> | </span>
-    <a href="https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819">
-      XDA
-    </a>
-  </h3>
-</div>
-
-### Usage
-- [Follow the directions here (DO NOT FORK)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-- Then follow instructions in [Wiki](https://github.com/Zackptg5/MMT-Extended/wiki)
+## Credits
+- AnierinB
+- Cartesian8445
+- JeusChrit
+- Luk1377
