@@ -16,6 +16,7 @@ ui_print " "
 ui_print "  1. OxygenOS 11"
 ui_print "  2. OxygenOS 11 (Alternative)"
 ui_print "  3. OxygenOS 12"
+ui_print "  4. OxygenOS 13"
 ui_print " "
 ui_print "- Current Selection:"
 
@@ -26,7 +27,7 @@ while true; do
   else
     break
   fi
-  if [ $SELECTION -gt 3 ]; then
+  if [ $SELECTION -gt 4 ]; then
     SELECTION=1
   fi
 done
@@ -59,5 +60,14 @@ case $SELECTION in
 	ui_print " "
 	ui_print "- Copying appropriate modded library"
 	cp_ch "$BASE_LIB_DIR"/oos12/$MODDED_LIB "$MODULE_LIB"
+	;;
+  4)
+	ui_print " "
+	ui_print "- Selected Vendor Firmware:"
+	ui_print " "
+	ui_print "  OxygenOS 13"
+	ui_print " "
+	ui_print "- Copying appropriate modded library"
+	cp_ch "$BASE_LIB_DIR"/oos13/$MODDED_LIB "$MODULE_LIB"
 	;;
 esac
