@@ -1,5 +1,9 @@
+### v1.3
+- Updated base template to MMT-Ex v3.7
+- Compressed modified libraries and addons to reduce zip size
+
 ### v1.2
-- Added support for OOS 13 and upcoming ROMs based on OOS 13 firmware
+- Added support for OOS 13 and ROMs based on OOS 13 firmware
 
 ### v1.1
 - Updated base template to MMT-Ex v2.0

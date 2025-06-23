@@ -14,6 +14,7 @@ This module systemless-ly replaces an existing library with a modified one file 
 
 ## Credits
 - AnierinB
+- ArcideMusic
 - Cartesian8445
 - haiderijaz
 - JeusChrit
